@@ -1,1 +1,1 @@
-# parsedown**修改自https://github.com/erusev/parsedown**  
+<h1>parsedown - 一个解析md的php库</h1>    ## 修改库的原地址，有疑问的话可以自己去查看文档或代码，我只是一个大自然的搬运工^-^https://github.com/erusev/parsedown## 为什么要修改因为有一个需求要多行换行，而从文档上没看到有相关设置，也可能是我没看到吧，所以才有了这个，然后这个库我也没从composer下载下来测试过，因为我是直接抽出来的，所以就..## 增加的配置设置其他设置跟原来的一样就是增加了一个setReplaceBrFlag方法(0:默认1:多个\n标签替换为br标签)  按道理使用如下:```phpuse arryuu\parsedown\Parsedown;$Parsedown = new Parsedown();$text = '我是一段需要解密的md5';$parseText = $Parsedown->setSafeMode(false)                       ->setReplaceBrFlag(1)                       ->text($text);```
