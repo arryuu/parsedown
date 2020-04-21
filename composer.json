@@ -1,0 +1,13 @@
+{
+    "name": "arryuu/parsedown",
+    "description": "parse md and source https://github.com/erusev/parsedown",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "arryuu",
+            "email": "604125002@qq.com"
+        }
+    ],
+    "require": {}
+}
